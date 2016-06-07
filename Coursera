@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<HEAD>
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+
+	<TITLE> Module 2  </TITLE>
+	
+	<style>
+
+   *{
+		margin:0px;
+		font-family: sans-serif;
+	}
+	body{
+		background-color: #E6E6E6;
+	}
+	h1{
+		color: #424242;
+		text-align: center;
+		font-size: 50px;
+		padding-top: 30px;
+	}
+	#first{
+		background-color: #F5DA81;
+	}
+	#second{
+		background-color: #F78181;
+	}
+	#third{
+		background-color: #E1F5A9;
+	}
+	span{
+		padding:5px 35px;
+		background-color: #FAAC58;
+		float: right;
+	}
+	.div1{
+		background-color: #F5DA81;
+			padding: 0px 5px 10px 10px;
+			border: 1px dashed #848484;
+	}
+	/* desktop */
+
+	@media (min-width: 992px){
+		.div1{
+			width: 25%;
+			float: left;
+			margin: 10px;
+		}
+		#container{
+			padding-top: 2em;
+			padding-left: 7em;
+		}
+	}
+	/* tablet */
+
+	@media (min-width: 768px) and (max-width: 991px){
+		.div1{
+			width: 45%;
+			margin: 10px;
+			float: right;
+		}
+		#first{
+			float: left;
+			width: 43%;
+		}
+		#second{
+			float: right;
+			width: 43%;
+		}
+		#third{
+			float: left;
+			width: 95%;
+		}
+		#container{
+			padding:1em;
+		}
+	}
+
+	/* mobile */
+	@media (max-width: 767px) and (min-width: 320px) {
+		.div1{
+			width: 85%;
+			margin: 10px;
+		}
+		#container{
+			padding:2em;
+		}
+	}
+
+	</style>
+
+
+</HEAD>
+<body>
+	<h1>Our Menu</h1>
+	<div id="container">
+	<div class="div1" id="first">
+		<span> Chiken </span> <br> <br> 
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id&nbsp;est&nbsp;laborum.
+	</div>
+
+	<div class="div1" id="second">
+		<span> &nbsp; Beef &nbsp; </span> <br> <br> 
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id&nbsp;est&nbsp;laborum.
+	</div>
+
+	<div class="div1" id="third">
+		<span> &nbsp; Sushi &nbsp; </span> <br> <br> 
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id&nbsp;est&nbsp;laborum.
+
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</HTML>
